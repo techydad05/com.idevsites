@@ -10,7 +10,7 @@ import { onMount } from "svelte";
 
 export const MedusaClient = () => {
     onMount(async () => {
-        console.log(Medusa)
+        console.log("Medusa", Medusa)
     });
 }
 
